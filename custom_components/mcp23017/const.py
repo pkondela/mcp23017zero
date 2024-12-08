@@ -1,5 +1,5 @@
 """Constants for MCP23017 integration."""
-DOMAIN = "mcp23017"
+DOMAIN = "mcp23017zero"
 
 MODE_UP = "UP"
 MODE_DOWN = "NONE"
@@ -16,7 +16,7 @@ CONF_FLOW_PIN_NUMBER = "pin_number"
 CONF_FLOW_PIN_NAME = "pin_name"
 
 DEFAULT_SCAN_RATE = 0.1  # seconds
-DEFAULT_I2C_BUS = 1  # use /dev/i2c-{DEFAULT_I2C_BUS}
+DEFAULT_I2C_BUS = 0  # use /dev/i2c-{DEFAULT_I2C_BUS}
 DEFAULT_I2C_ADDRESS = 0x20
 
 DEFAULT_INVERT_LOGIC = False
